@@ -1,0 +1,203 @@
+/***********************************HTML Elements***************************/
+body {
+  font-size: 200%;
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  color: #40514E
+}
+
+h1 {
+  font-size: 5.625rem;
+  color: #626ED9;
+  margin: 50px auto 0 auto;
+  font-family: "Sacramento", cursive;
+}
+
+h2 {
+  color: #626ED9;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #626ED9;
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+a {
+  color: #626ED9;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+a.greta:hover, a.greta:active {
+  color: #15141A;
+}
+
+a.amazing:hover, a.amazing:active {
+  color: #15141A;
+}
+
+a.chayanne:hover, a.chayanne:active {
+  color: #15141A;
+}
+
+a.okada:hover, a.okada:active {
+  color: #15141A;
+}
+
+a.prg:hover, a.prg:active {
+  color: #15141A;
+}
+
+
+a.act:hover, a.act:active {
+  color: #15141A;
+}
+
+
+
+a.wayne:hover, a.wayne:active {
+  color: #15141A;
+}
+
+
+a.fob:hover, a.fob:active {
+  color: #15141A;
+}
+
+
+/******************************Containers*************************************/
+.Top-container {
+  background-color: #87A0FD;
+  margin: 0;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #87A0EA;
+  padding: 50px 0 20px;
+}
+
+.stage {
+  padding-bottom: 0;}
+
+.pro {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 30px;
+  top: 760px;
+  width: 200px;
+  height: 200px;
+  transform: scaleX(-1);
+
+
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 30px;
+  top: 760px;
+  width: 200px;
+  height: 200px;
+
+
+}
+
+.p1 {
+  color: #626ED9;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+.skills {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.spotlight {
+  float: left 30px;
+  width: 25%;
+}
+
+.intro {
+  width: 40%;
+  margin: auto;
+}
+
+.mixer {
+  float: left 30px;
+  width: 25%;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.contact-me {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.copyright {
+  color: #EAF6F6
+}
+.btn {
+  background: #87A0EA;
+  background-image: -webkit-linear-gradient(top, #87A0EA, #626ED9);
+  background-image: -moz-linear-gradient(top, #87A0EA, #626ED9);
+  background-image: -ms-linear-gradient(top, #87A0EA, #626ED9);
+  background-image: -o-linear-gradient(top, #87A0EA, #626ED9);
+  background-image: linear-gradient(to bottom, #87A0EA, #626ED9);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #FFA3FD;
+  background-image: -webkit-linear-gradient(top, #FFA3FD, #865DFF);
+  background-image: -moz-linear-gradient(top, #FFA3FD, #865DFF);
+  background-image: -ms-linear-gradient(top, #FFA3FD, #865DFF);
+  background-image: -o-linear-gradient(top, #FFA3FD, #865DFF);
+  background-image: linear-gradient(to bottom, #FFA3FD, #865DFF);
+  text-decoration: none;
+}
